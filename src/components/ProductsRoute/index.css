@@ -1,0 +1,62 @@
+.tabs-container {
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+}
+
+.tabs > button {
+  height: 40px;
+  width: 100px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+}
+
+.details-container {
+  background-color: #ffffff;
+  padding: 10px;
+  height: 50%;
+}
+
+.active {
+  color: #03a5fc;
+  background-color: #03a5fc;
+  border: 1px solid #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  margin: 20px;
+  width: 50%;
+  display: flex;
+}
+
+.file-btns {
+  background-color: transparent;
+  border: none;
+  height: 40px;
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}

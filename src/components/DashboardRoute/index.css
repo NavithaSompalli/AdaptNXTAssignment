@@ -1,0 +1,94 @@
+.dash-board-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.nav-items-container {
+  width: 20%;
+  background-color: #ffffff;
+  height: 100vh;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.nav-items-container > button {
+  height: 40px;
+  width: 150px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.orders-container {
+  margin: 10px;
+  width: 100%;
+  height: 100vh;
+}
+
+.order-btn {
+  height: 40px;
+  width: 150px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+.dashboard {
+  background-image: url('https://res.cloudinary.com/dqyqjbuku/image/upload/v1708339464/WhatsApp_Image_2024-02-19_at_4.12.58_PM_idf8op.jpg');
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+  position: absolute;
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-msg {
+  align-self: center;
+  color: #479196;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.headline {
+  font-size: 15px;
+  font-style: italic;
+  color: #ffffff;
+  position: absolute;
+  right: 300px;
+  top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.smiley {
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.main-heading--msg {
+  text-align: center;
+  margin-top: 40px;
+  color: #03a5fc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

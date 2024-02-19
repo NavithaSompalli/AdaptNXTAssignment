@@ -1,0 +1,32 @@
+.nav-container {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px 5px #d5d8de;
+  background-color: #ffffff;
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+
+.profile-container {
+  margin-left: 10px;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
